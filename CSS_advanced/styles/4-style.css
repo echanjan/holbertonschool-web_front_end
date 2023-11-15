@@ -18,15 +18,6 @@ a {
   color: var(--text-color);
 }
 
-.visually-hidden {
-  display: none;
-}
-
-.card-category,
-.section-tagline {
-  color: var(--color-primary);
-}
-
 body {
   font-family: var(--font-family-base);
 }
@@ -38,6 +29,15 @@ h4,
 h5,
 h6 {
   font-family: var(--font-family-title);
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.card-category,
+.section-tagline {
+  color: var(--color-primary);
 }
 
 
