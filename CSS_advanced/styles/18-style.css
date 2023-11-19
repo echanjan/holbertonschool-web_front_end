@@ -57,7 +57,7 @@ body {
   line-height: var(--line-height-base);
 }
 
-.navbar.menu {
+.navbar-menu {
   float: right;
 }
 
@@ -79,7 +79,7 @@ body {
 
 .nav .nav-link {
   display: block;
-  padding: calc(1rem / 2) 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover {
