@@ -79,7 +79,7 @@ body {
 
 .nav .nav-link {
   display: block;
-  padding: calc(1/2rem) 1rem;
+  padding: calc(1rem/2) 1rem;
 }
 
 .nav .nav-link:hover {
