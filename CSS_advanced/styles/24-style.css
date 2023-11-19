@@ -135,7 +135,7 @@ h6 {
   padding: var(--section-body-padding);
 }
 
-.card-title .card-services {
+.card-services .card-title {
   margin: 0;
 }
 
