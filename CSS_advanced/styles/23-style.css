@@ -215,8 +215,8 @@ a:active {
 
 .social-link {
   display: block;
-  
+
   svg {
-  fill: var(--text-color);
+  color: var(--text-color);
   }
 }
