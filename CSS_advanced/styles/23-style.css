@@ -210,11 +210,11 @@ a:active {
 }
 
 .footer-address {
-  font-style: var(--text-color);
+  color: var(--text-color);
 }
 
 .social-link {
-  display: block;
+  display: flex;
 }
 
 .social-link svg {
