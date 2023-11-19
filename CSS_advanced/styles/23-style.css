@@ -214,9 +214,9 @@ a:active {
 }
 
 .social-link {
-  display: flex;
+  display: block;
 }
 
 .social-link svg {
-  color: var(--text-color);
+  fill: var(--text-color);
 }
