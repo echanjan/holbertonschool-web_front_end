@@ -89,7 +89,7 @@ body {
 
 ul.row {
   margin: 0;
-  padding: none;
+  padding: 0;
   list-style: none;
 }
 
@@ -185,7 +185,7 @@ a:active {
 }
 
 .footer-copyright {
-  margin: none;
+  margin: 0;
   font-size: var(--font-size-small);
   color: var(--text-color);
 }
