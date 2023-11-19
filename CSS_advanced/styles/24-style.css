@@ -139,13 +139,13 @@ h6 {
   margin: 0;
 }
 
-.card-title .card-services a {
+.card-services a {
   display: block;
   padding: 2rem;
   background-color: var(--color-light-grey);
 }
 
-.card-title .card-services a:hover {
+.card-services a:hover {
   color: var(--color-white);
   background-color: var(--color-primary);
   text-decoration: none;
