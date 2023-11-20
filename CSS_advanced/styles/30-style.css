@@ -224,7 +224,7 @@ h6 {
   color: var(--color-primary);
 }
 
-.card-outer .card-work{
+.card-work .card-outer{
   position: relative;
   overflow: hidden;
 }
