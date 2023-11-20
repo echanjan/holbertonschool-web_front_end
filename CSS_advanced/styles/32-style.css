@@ -248,7 +248,6 @@ h6 {
 
 .card-work:hover .card-outer {
   transform: scale(0.95);
-  transition: var(–-transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-image img{
@@ -269,7 +268,7 @@ h6 {
   left: -0.1rem;
   right: -0.1rem;
   z-index: 1;
-  transition: background-color var(--transition-duration) var(--transition-cubic-bezier);
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner {
@@ -370,7 +369,8 @@ a:active {
   color: var(--button-hover-color);
   text-decoration: var(--button-hover-text-decoration);
   background: var(--button-hover-background);
-  transition: color var(--transition-duration) var(--transition-cubic-bezier), background-color var(--transition-duration) var(--transition-cubic-bezier);
+  transition-duration: var(--transition-duration);
+  transition-property: color, background-color;
 }
 
 .footer {
